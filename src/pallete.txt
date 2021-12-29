@@ -1,0 +1,22 @@
+----- bohoplet
+normal
+background-color: rgb(221,193,156);
+
+lighter
+background-color: rgb(241,213,176);
+
+lighterest
+rgb(243, 236, 227)
+
+darker
+background-color: rgb(201,173,136);
+
+darkest
+rgb(134, 104, 64);
+
+----- bohozlat
+normal
+background-color: rgb(232,190,56);
+
+lighter
+background-color: rgb(252,210,76);

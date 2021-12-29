@@ -1,0 +1,54 @@
+.table-striped {
+    font-family: 'Kalam', cursive;
+    font-size: 18px !important;
+    border-radius: 15px !important;
+  }
+  
+  .container {
+    max-width: 75% !important;
+  }
+  
+  .news-header {
+    font-family: 'League Script', cursive;
+    font: bold !important;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px black; 
+    color: white !important;
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+    background-color: rgb(110, 79, 53, 0.7) !important;
+  }
+  
+  .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+      background-color: rgba(241,213,176, 0.5);
+   }
+  
+  .table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+      background-color: rgba(243, 236, 227, 0.5);
+  }
+  
+  .table-striped > tbody {
+       box-shadow: none;
+       border: none;
+       outline: none;
+   }
+  
+  table th, table td {
+     border: none !important;
+     margin: 0px !important;
+   }
+
+   @media (max-width: 767px){
+    .container {
+      max-width: 100% !important;
+    }
+
+    th {
+      max-width: 0px;
+    }
+
+    td {
+      padding-top: 36px;
+    }
+   }

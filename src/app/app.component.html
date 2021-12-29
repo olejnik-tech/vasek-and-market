@@ -1,0 +1,70 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="navbar-brand mv-brand" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <a [routerLink]="['home']">Markétka a Vašek</a>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin:0 auto;">
+      <li class="nav-item active">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['home']">Hlavní stránka</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['news']">Aktuality</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['harmonogram']">Harmonogram</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['story']">Náš příběh</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['photos']">Fotogalerie</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['presents']">Rezervace darů</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['info']">Informace</button>
+      </li>
+
+      <li class="nav-item">
+        <button data-toggle="collapse" data-target="#navbarSupportedContent" class="btn btn-light btn-boho" [routerLink]="['contacts']">Kontakty</button>
+      </li>
+    </ul>
+
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Hledat" aria-label="Search">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="secondary">Hledat</button>
+    </form> -->
+  
+      </div>
+</nav>
+  
+ <div class="container" >
+    <router-outlet></router-outlet>
+
+    <a>
+      <script language="JavaScript" type="text/javascript">
+        document.write('<img src="https://toplist.cz/count.asp?id=1793104&http='+
+        escape(document.referrer)+'&t='+escape(document.title)+
+        '&wi='+escape(window.screen.width)+'&he='+escape(window.screen.height)+'&cd='+
+        escape(window.screen.colorDepth)+'" width="1" height="1" border=0 alt="TOPlist" />');
+      </script>
+      
+      <noscript>
+        <img src="https://toplist.cz/count.asp?id=1793104" alt="TOPlist" width="1" height="1"/>
+      </noscript></a>
+
+</div>

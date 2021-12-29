@@ -1,0 +1,65 @@
+.navbar-light {
+  background-color: rgba(221,193,156,0.3) !important;
+}
+
+.mv-brand {
+  font-family: 'Parisienne', cursive;
+  font: bold;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: -1px -1px rgba(255,255,255, 0.4);
+}
+
+.nav-item {
+  margin-left: 5px;
+}
+
+.btn-boho {
+  font-family: 'Charmonman', cursive;
+  font: bold !important;
+  color: black !important;
+  text-shadow: 1px 1px white;
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  background-color: rgba(255,255,255, 0.4) !important;
+  color: rgb(104, 76, 41);
+  border: solid 0px !important;
+  border-radius: 25px;
+  height: 100%;
+}
+
+.btn:hover {
+  background-color: rgba(255,255,255, 0.8) !important;
+}
+
+.btn.btn-light:focus {
+  box-shadow: none !important;
+}
+
+.container {
+  font-family: 'Charmonman', cursive !important;
+  font-size: 18px !important;
+}
+
+@media (max-width: 767px) {
+  .btn-boho {
+    width: 70%;
+  }
+  .nav-item {
+    margin-bottom: 2px;
+    text-align:center;
+  }
+}
+
+@media (min-width: 960px) {
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+  }
+}

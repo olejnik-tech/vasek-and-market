@@ -1,0 +1,16 @@
+body {
+    background-image: url("assets/app_background.png");
+    background-attachment: fixed;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: black; 
+     text-decoration:none; 
+     cursor:default;  
+}
